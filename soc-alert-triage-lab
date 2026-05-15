@@ -1,0 +1,73 @@
+# SOC Alert Triage & Threat Detection Lab
+
+## Overview
+
+This project demonstrates SOC analyst workflows involving alert triage, incident investigation, threat validation, and response documentation using simulated security scenarios.
+
+The lab focuses on practical Tier 1 SOC operations including:
+- Alert triage and severity classification
+- Investigation workflows
+- MITRE ATT&CK mapping
+- Incident documentation
+- Threat validation and false-positive reduction
+- Endpoint and authentication analysis
+- Escalation and containment recommendations
+
+---
+
+## Scenarios Included
+
+### 1. Phishing Investigation
+Investigated a suspicious email attachment and analyzed indicators of compromise, user activity, and containment actions.
+
+### 2. Brute Force Login Investigation
+Analyzed repeated failed authentication attempts, impossible travel activity, and suspicious IP behavior against a user account.
+
+### 3. PowerShell Endpoint Detection
+Investigated encoded PowerShell execution activity detected through endpoint telemetry and reviewed process behavior for malicious indicators.
+
+---
+
+## Tools & Technologies
+
+- Microsoft Sentinel
+- Microsoft Defender
+- Splunk
+- Wireshark
+- Nmap
+- Windows Event Logs
+- MITRE ATT&CK Framework
+- Cyber Kill Chain
+- NIST SP 800-61
+
+---
+
+## Skills Demonstrated
+
+- SOC alert triage
+- Incident investigation
+- Threat analysis
+- Log correlation
+- Endpoint analysis
+- Authentication analysis
+- Severity classification
+- Incident documentation
+- Escalation workflows
+- Security operations reporting
+
+---
+
+## MITRE ATT&CK Techniques Referenced
+
+| Technique | Description |
+|---|---|
+| T1110 | Brute Force |
+| T1059 | PowerShell |
+| T1566 | Phishing |
+| T1078 | Valid Accounts |
+
+---
+
+## Purpose
+
+This project was built to strengthen practical SOC investigation skills and demonstrate incident response workflows aligned with real-world Security Operations Center environments.
